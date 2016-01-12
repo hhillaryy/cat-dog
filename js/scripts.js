@@ -13,6 +13,14 @@ $(document).ready(function() {
       });
   });
 
+  $("img.bark").click(function(){
+    $(".nocuriousdog").toggle();
+    $("#curiousdog").toggle().after();
+  });
 
+  $("img.meow").click(function(){
+    $(".nocuriouscat").toggle();
+    $("#curiouscat").toggle().after();
+  });
 
 });
